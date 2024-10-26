@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "pg resources",
+    "pack_format": 15,
+    "forge:server_data_pack_format": 12
+  }
+}

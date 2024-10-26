@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "uuid": "33b912f8-0aa0-45e6-a2d4-9b5677e6f35c",
+  "name": "gyro",
+  "emote": {
+    "beginTick": 0,
+    "endTick": 60,
+    "stopTick": 60,
+    "isLoop": true,
+    "returnTick": 0,
+    "nsfw": false,
+    "degrees": false,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "INOUTSINE",
+        "leftArm": {
+          "roll": -45.5
+        }
+      },
+      {
+        "tick": 0,
+        "easing": "INOUTSINE",
+        "rightArm": {
+          "roll": 45.5
+        }
+      },
+      {
+        "tick": 0,
+        "easing": "INOUTSINE",
+        "head": {
+          "pitch": 0.0
+        }
+      },
+      {
+        "tick": 60,
+        "easing": "INOUTSINE",
+        "body": {
+          "yaw": 180.0
+        }
+      }
+    ]
+  }
+}
